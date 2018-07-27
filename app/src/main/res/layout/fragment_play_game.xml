@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg0"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg1">
+
+        <ProgressBar
+            android:id="@+id/pgb"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:indeterminateTint="#19000000" />
+
+        <TextView
+            android:id="@+id/txtTimeCount"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_countdown"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="9"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCauHoi"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/txtTimeCount"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_text"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Câu hỏi 1:\nAi là tổng thống Mỹ nhiệm kỳ 12 - 15 ?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ig1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/txtCauHoi"
+            android:layout_marginLeft="-10dp"
+            android:background="@drawable/bg2" />
+
+        <TextView
+            android:id="@+id/ig3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/txtCauHoi"
+            android:layout_marginRight="-10dp"
+            android:background="@drawable/bg2" />
+
+        <ImageView
+            android:id="@+id/imgCheck1"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/txtCauHoi"
+            android:layout_alignTop="@+id/btnCauTraLoi1"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_check" />
+
+        <Button
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:id="@+id/btnCauTraLoi1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/ig1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_playgame_unclick"
+            android:gravity="center"
+            android:text="Anhstanh"
+            android:textAllCaps="false" />
+
+        <ImageView
+            android:id="@+id/imgCheck2"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btnCauTraLoi1"
+            android:layout_alignTop="@+id/btnCauTraLoi2"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_check" />
+
+        <Button
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:id="@+id/btnCauTraLoi2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/btnCauTraLoi1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_playgame_unclick"
+            android:gravity="center"
+            android:text="Newton"
+            android:textAllCaps="false" />
+
+        <ImageView
+            android:id="@+id/imgCheck3"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btnCauTraLoi2"
+            android:layout_alignTop="@+id/btnCauTraLoi3"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_check" />
+
+        <Button
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:id="@+id/btnCauTraLoi3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/btnCauTraLoi2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_playgame_unclick"
+            android:gravity="center"
+            android:text="Tôi"
+            android:textAllCaps="false" />
+
+
+        <ImageView
+            android:id="@+id/imgCheck4"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/btnCauTraLoi3"
+            android:layout_alignTop="@+id/btnCauTraLoi4"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_check" />
+
+        <Button
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:id="@+id/btnCauTraLoi4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/btnCauTraLoi3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_playgame_unclick"
+            android:gravity="center"
+            android:text="Tôi"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+</LinearLayout>

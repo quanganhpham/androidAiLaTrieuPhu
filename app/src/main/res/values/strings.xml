@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GameAiLaTrieuPhu</string>
+
+    <!--Dialog Ready-->
+    <string name="dialog_cach_choi">Đây là cách chơi game
+        \n<font color="#EC1F27">Triệu phú là Bạn?</font>\n
+        \nBạn hãy vượt qua 15 câu hỏi của chương trình và với 4 sự trợ giúp mà chúng tôi tặng bạn!\n
+        <b>Chúc bạn may mắn!</b></string>
+</resources>
